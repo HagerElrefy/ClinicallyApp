@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/BBackground_color"
+    tools:context=".ShowDataActivity">
+
+    <ListView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lstView"
+        android:elevation="15dp"
+        android:background="?attr/background_color"
+        android:outlineSpotShadowColor="?attr/shadow_Color"
+        />
+
+</LinearLayout>

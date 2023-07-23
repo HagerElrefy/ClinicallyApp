@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MessageActivity"
+    android:background="?attr/BBackground_color"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="?attr/text_color"
+        android:text="Enter your message"
+        android:textSize="18sp"
+        android:textAlignment="center"/>
+
+    <EditText
+        android:id="@+id/messageBody"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoSizeMaxTextSize="@dimen/car_ui_app_styled_dialog_height"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:text="Send message"
+        android:onClick="messageClick"/>
+
+
+</LinearLayout>
